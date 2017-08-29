@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:8889/db_ng_laravel</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="api.model.settings.RolesEntity"/>
+    <mapping class="api.model.settings.PermissionRoleEntity"/>
+    <mapping class="api.model.settings.PermissionsEntity"/>
+    <mapping class="api.model.settings.RoleUserEntity"/>
+    <mapping class="api.model.settings.RolesEntity"/>
+    <mapping class="api.model.settings.UsersEntity"/>
+    <mapping class="api.model.settings.TodoEntity"/>
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

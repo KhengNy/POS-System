@@ -1,0 +1,12 @@
+api/jwt/AccountCredentials.class
+api/jwt/WebSecurityConfig.class
+api/model/settings/UsersEntity.class
+api/utility/JwtFilter.class
+api/Application.class
+api/jwt/TokenAuthenticationService.class
+api/jwt/JWTLoginFilter.class
+api/controller/auth/LoginController.class
+api/repository/settings/UsersRepository.class
+api/utility/Tools.class
+api/model/settings/PermissionsEntity.class
+api/repository/settings/PermissionsRepository.class
